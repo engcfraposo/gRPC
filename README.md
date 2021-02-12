@@ -18,13 +18,13 @@ $ yarn install
 
 `install zeus`
 ```bash
-$ cd api
+$ cd zeus
 $ yarn install
 ```
 
 `install odin`
 ```bash
-$ cd api
+$ cd odin
 $ yarn install
 ```
 
