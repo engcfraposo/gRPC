@@ -10,20 +10,23 @@
 $ git clone https://github.com/engcfraposo/gRPC.git
 ```
 por fim execute o comando para entrar na pasta que foi criada e instalar as dependencias do projeto:
-`install api`
+## Instalação Api
 ```bash
+$ cd gRPC
 $ cd api
 $ yarn install
 ```
 
-`install zeus`
+## Instalação microserviço Zeus
 ```bash
+$ cd gRPC
 $ cd zeus
 $ yarn install
 ```
 
-`install odin`
+## Instalação microserviço Odin
 ```bash
+$ cd gRPC
 $ cd odin
 $ yarn install
 ```
