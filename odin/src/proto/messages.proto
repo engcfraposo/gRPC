@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+service PurchaseService {
+    rpc getPurchaseByIdRequest(GetPurchaseByIdRequest) returns (PurchaseResponse){}
+    rpc listPurchases(ListPurchasesRequest) returns (ListPurchasesResponse){}
+    rpc createPurchase(PurchaseRequest) returns (PurchaseResponse){}
+}
+
+message Purchase {
+    string id = 1;
+    string userId = 2;
+    string title = 3;
+    float value = 4;
+}
+
+message GetPurchaseByIdRequest {
+    string id = 1;
+}
+
+message ListPurchasesRequest {
+    string userId = 1;
+}
+
+message PurchaseRequest {
+    Purchase purchase = 1;
+}
+
+message PurchaseResponse {
+    Purchase purchase = 1;
+}
+
+message ListPurchasesResponse {
+    repeated Purchase purchases = 1;
+}
+
+

@@ -1,0 +1,5 @@
+export default {
+  RF_VIEW: 'RF_VIEW',
+  RF_FAMILIA: 'RF_FAMILIA',
+  DEL_REG_ATEN: 'DELETE_REGISTRO_ATENDIMENTO',
+};
